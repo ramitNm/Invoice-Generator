@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+  overflow-x: hidden; /* Hide vertical scrollbar */
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STYLES FOR LOGIN AND SIGN UP PAGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.login-page{
+  height: 100vh;
+  /*color: white;*/
+  /*color: #bb86fc;*/
+  color: #8d0696;
+
+  width: 100vw;
+  /*background-color: #050507;*/
+  /*background-color: #040406;org*/
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  font-family: 'Megrim', cursive;
+
+  position: absolute;
+  left: 5vw;
+  top: 2vh;
+  font-size: 10vh;
+color: white;
+  caret-color: transparent;
+
+  
+}
+
+.login-card{
+  font-family: 'Megrim', cursive;
+font-family: 'Poppins', sans-serif;
+ /*border: 2px solid white;*/
+ margin-top: 20vh;
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center
+}
+.login-card h1{
+  margin-bottom: 3vh;
+  caret-color: transparent;
+}
+.fields{
+  /*border: 2px solid white;*/
+
+}
+
+.fields h1{
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.field-title{
+  font-size: 2.5vh;
+  margin-top: 2vh;
+  caret-color: transparent;
+}
+
+.fields input{
+  width: 300px;
+  padding: 2px;
+  /*padding-left: 10px;*/
+  background-color: #303030;
+  /*background-color: #a7a6ba;*/
+  color: white;
+  border: 2px solid #8d0696;
+  border-radius: 16px;
+  height: 5vh;
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+padding-left: 5px;
+font-family: 'Poppins', sans-serif;
+}
+
+.login-submit{
+  font-family: 'Megrim', cursive;
+font-family: 'Poppins', sans-serif;
+font-size: larger;
+  border: none;
+  width:300px;
+  height: 6vh;
+  border-radius: 16px;
+  background: linear-gradient(to left,/*#9d0570*/#e52b64,#8d0696);
+  margin-top: 3vh;
+  color: white;
+  
+}
+
+.signup-text{
+  margin-top: 15px;
+  font-size: 2vh;
+}
+
+.password-warn{
+  width:90px;
+  min-height:20px
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+svg{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  right: 70px;
+  top:0;
+  
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STYLES FOR HOME PAGE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.home{
+  
+  background-color: rgb(20, 20, 20);
+  color: hsl(296, 94%, 31%);
+  font-family: 'Megrim', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  caret-color: transparent;
+}
+
+.nav h1{
+  font-family: 'Megrim', cursive;
+  font-size: 10vh;
+  color: white;
+  margin-left: 10px;
+}
+
+.icons{
+  margin-top: 4vh;
+}
+
+.nav ul img{
+  margin-right: 40px;
+}
+
+.uls{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.left-tag{
+  margin-right: 5px;
+}
+
+.right-tag{
+  margin-left: 15px;
+}
+
+
+
+
+.info-box{
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  caret-color: transparent;
+}
+
+.info{
+  height: 80vh;
+  width:45vw;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.main-img{
+  height: 80vh;
+  width:45vw;
+  margin-left: 70px;
+}
+
+
+
+.info-heading{
+font-size: 100px;
+color: #e52b64;
+margin-top: 70px;
+}
+
+.info-para{
+  margin-top: 50px;
+  font-size: 20px;
+  color:white;
+
+}
+
+
+
+.btn-scroll{
+  font-family: 'Megrim', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+    border: none;
+    width:300px;
+    height: 6vh;
+    border-radius: 16px;
+    background: linear-gradient(to left,/*#9d0570*/#e52b64,#8d0696);
+    margin-top: 10vh;
+    color: white;
+}
+
+
+.main{
+  min-height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-heading{
+  color: #e52b64;
+  font-size: 100px;
+  justify-self: left;
+  caret-color: transparent;
+}
+
+.form-layout{
+  border:5px solid #8d0696;
+  padding: 20px;
+  min-height: 100vh;
+  width:80vw;
+  border-radius: 10px;
+}
+
+.container{
+  font-family: 'Della Respira';
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+    color: white;
+    caret-color: transparent;
+    
+}
+
+.grid-item{
+  border:none;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item p{
+  font-size: 20px;
+}
+
+.form-input{
+  font-family: 'Della Respira', serif;
+
+  width: 300px;
+  padding: 2px;
+  /*padding-left: 10px;*/
+  background-color: #303030;
+  /*background-color: #a7a6ba;*/
+  color: white;
+  border: none;
+  border-radius: 16px;
+  height: 5vh;
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+padding-left: 5px;
+caret-color: white;
+}
+
+/*Number Input*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.item-form{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Della Respira';
+  color: white;
+  
+}
+
+
+PDFDownloadLink{
+  color: #e52b64;
+}
+
+.PDFDownloadLink{
+  
+  font-family: 'Megrim', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+    border: none;
+    width:200px;
+    height: 6vh;
+    border-radius: 16px;
+    background: linear-gradient(to left,/*#9d0570*/#e52b64,#8d0696);
+    margin-top: 10vh;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.profile{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #151515;
+  caret-color: transparent;
+}
+
+.profile-logout{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.hello-text{
+  color: #e52b64;
+  font-size: 50px;
+  margin-left: 30px;
+  font-family: 'Della Respira', serif;
+
+}
+
+.profile-main{
+
+  
+  width:80vw;
+  min-height: 20vh;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.view-invoice-btn{
+  font-family: 'Megrim', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+    border: none;
+    width:300px;
+    height: 6vh;
+    border-radius: 16px;
+    background: linear-gradient(to left,/*#9d0570*/#e52b64,#8d0696);
+    margin-top: 10vh;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.table-heading{
+ 
+margin-bottom: 20px;
+}
+
+.profile-main ul li{
+  display: inline-block;
+  color: azure;
+  width: 150px;
+}
+
+.landing{
+  
+  height: 100vh;
+  width: 100vw;
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  caret-color: transparent;
+}
+
+.landing-nav{
+  height: 20vh;
+  width:100vw;
+  
+  display: flex;
+}
+
+.landing-nav ul{
+  color: white;
+  width: 20vw;
+ 
+  height: 40px;
+  margin-top: 40px;
+  
+  position: absolute;
+  right:20px;
+}
+
+.landing-nav ul li{
+  display: inline;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+}
+
+.landing-main{
+  height: 80vh;
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-heading{
+  
+  font-family: 'Poppins', sans-serif;
+  color:#e52b64;
+  font-size: 70px;
+  background-color: #151515;
+}
+
+.landing-para{
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  width: 70vw;
+}
+
+.landing-btns{
+  width:40vw;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.TwitterTweetEmbed{
+  width: 50vw;
+  margin-left: 50px;
+}
+
+.contact{
+  height: 100vh;
+  width: 100vw;
+  
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Megrim', cursive;
+  font-family: 'Poppins', sans-serif;
+   /*border: 2px solid white;*/
+   margin-top: 10vh;
+    height: 70vh;
+    width: 70vw;
+}
+
+.contact-form label{
+  font-size: 2.5vh;
+  margin-top: 3vh;
+  caret-color: transparent;
+  color: white;
+}
+
+.contact-form input{
+  width: 300px;
+  padding: 2px;
+  background-color: #303030;
+  color: white;
+  border: 2px solid #8d0696;
+  border-radius: 16px;
+  height: 5vh;
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+padding-left: 5px;
+font-family: 'Poppins', sans-serif;
+}
+
+.contact-form textarea{
+  width: 300px;
+  padding: 2px;
+  background-color: #303030;
+  color: white;
+  border: 2px solid #8d0696;
+  border-radius: 16px;
+  height: 15vh;
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+padding-left: 5px;
+font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-container{
+  background-color: #151515;
+  height: 100vh;
+  width: 100vw;
+}
+
+.testimonials{
+  margin-top: 150px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-heading{
+  font-family: 'Poppins', sans-serif;
+  color:#e52b64;
+  font-size: 70px;
+  background-color: #151515;
+  margin-left: 270px;
+}
+
+
+.testimonials img{
+height: 300px;
+}
+
+.warning{
+  color: red;
+}
